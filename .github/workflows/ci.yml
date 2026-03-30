@@ -1,0 +1,48 @@
+﻿# Cybersecurity Chatbot CI Workflow
+
+
+name: CI Build
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    # Step 1: Check out the code
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    # Step 2: Set up .NET environment
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '6.0.x'
+    
+    # Step 3: Restore NuGet packages
+    - name: Restore dependencies
+      run: dotnet restore
+    
+    # Step 4: Build the project
+    - name: Build project
+      run: dotnet build --configuration Release --no-restore
+    
+    # Step 5: Verify build success
+    - name: Build verification
+      run: |
+        echo "✅ CI Build completed successfully!"
+        echo "Project: Cybersecurity Chatbot"
+        echo "Configuration: Release"
+        echo "Status: PASSED"
+    
+    # Step 6: Output build details 
+    - name: Display build output
+      if: always()
+      run: |
+        echo "Build completed at $(Get-Date)"
+        echo "Running on: $env:RUNNER_OS"

@@ -50,11 +50,10 @@
     <Compile Include="Services\ChatbotService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".github\workflows\ci.yml" />
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include=".github\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Audio\greeting.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
