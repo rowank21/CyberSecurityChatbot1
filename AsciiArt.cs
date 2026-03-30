@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CybersecurityChatbot
+namespace CybersecurityChatbot1
 {
     public static class AsciiArt
     {
