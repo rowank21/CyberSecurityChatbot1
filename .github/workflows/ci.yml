@@ -1,5 +1,5 @@
 ﻿# Cybersecurity Chatbot CI Workflow
-
+# This workflow builds the project on every push to verify it compiles correctly
 
 name: CI Build
 
@@ -40,7 +40,7 @@ jobs:
         echo "Configuration: Release"
         echo "Status: PASSED"
     
-    # Step 6: Output build details 
+    # Step 6: Output build details (optional)
     - name: Display build output
       if: always()
       run: |
