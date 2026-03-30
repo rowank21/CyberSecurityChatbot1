@@ -152,7 +152,7 @@ namespace CyberSecurityChatbot1.Services
                 }
             }
 
-            // Check for partial matches
+            // Checks for partial matches
             foreach (var response in responses)
             {
                 if (response.Keyword.Split(' ').Any(word => input.Contains(word)))
@@ -189,7 +189,7 @@ namespace CyberSecurityChatbot1.Services
             TypewriterEffect(response + "\n", 30);
             Console.ResetColor();
 
-            // Add decorative border after response
+            // Added border after response
             Console.ForegroundColor = ConsoleColor.DarkGray;
             Console.WriteLine(new string('─', 60));
             Console.ResetColor();
