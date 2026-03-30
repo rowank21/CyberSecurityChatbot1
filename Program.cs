@@ -20,7 +20,7 @@ namespace CyberSecurityChatbot1
                 Console.BufferWidth = 90;
                 Console.BufferHeight = 500;
             }
-            catch {  }
+            catch { }
 
             // Clear the screen at start
             Console.Clear();
