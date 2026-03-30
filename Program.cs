@@ -12,7 +12,7 @@ namespace CyberSecurityChatbot1
             Console.Title = "🔐 Cybersecurity Awareness Bot";
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            // Make window bigger for better display
+            // Made window bigger for better display
             try
             {
                 Console.WindowWidth = 90;
