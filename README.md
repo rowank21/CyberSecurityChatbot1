@@ -32,6 +32,14 @@ Code
 - Automatic properties in model class
 - Comprehensive error handling
 
+Future Improvements
+-Graphical User Interface (GUI): Convert from command-line to Windows Presentation Foundation (WPF) or Windows Forms application
+-Topic Recognition: Implement advanced keyword detection to recognize specific cybersecurity topics more accurately
+-Enhanced Visual Design: Add icons, images, and improved layout for better user experience
+-Interactive Game: Add a simple gamified element 
+-Task List: Implement a cybersecurity tips checklist where users can track their learning progress
+-Advanced Features: Add functionality for saving user preferences or quiz scores
+
 CI SCREENSHOT:
 <img width="1440" height="900" alt="Screenshot 2026-03-30 at 16 31 23" src="https://github.com/user-attachments/assets/4a247eb2-375d-49d7-88a7-7ed902040d8b" />
 ALTERNATIVELY THE SCREENSHOT IS IN MY ROOT FOLDER AND OR ATTACHED TO MY PROJECT SUBMISSION
