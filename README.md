@@ -32,3 +32,6 @@ Code
 - Automatic properties in model class
 - Comprehensive error handling
 
+CI SCREENSHOT:
+<img width="1440" height="900" alt="Screenshot 2026-03-30 at 16 31 23" src="https://github.com/user-attachments/assets/4a247eb2-375d-49d7-88a7-7ed902040d8b" />
+ALTERNATIVELY THE SCREENSHOT IS IN MY ROOT FOLDER AND OR ATTACHED TO MY PROJECT SUBMISSION
